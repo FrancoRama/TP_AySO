@@ -1,0 +1,106 @@
+cd repogit
+ls
+cd UTN-FRA_SO_onBording
+git status
+git commit -m "commit"
+git push
+cd repogit
+ls
+cd UTN-FRA_SO_onBording 
+git push
+FrancoRama
+git push
+ls
+cd Rama_vagrant/
+git psuh
+git push
+git status
+ls
+cd -TP_AySO/
+cd repogit
+git clone git@github.com:FrancoRama/-TP_AySO.git
+ls
+git clone git@github.com:FrancoRama/-TP_AySO.git
+ls
+cd -TP_AySO/
+cd ..
+ls
+cd -TP_AySO/
+ssh-keygen
+ls
+$HOME
+cat $HOME/.ssh*.pub
+ssh-keygen
+$HOME
+cd $HOME
+ls
+cat $HOME/.ssh/*.pub
+ls
+cd repogit
+ls
+cd -TP_AySO/
+LS
+ls
+cd repogit
+ls
+cd TP_AySO/
+pwd
+ls
+man grep
+grep HOME_URL /etc/os-release
+
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i HOME_url /etc/os-release
+whoami
+echo "usuario=$(whoami)"
+echo "usuario=$(whoami)" > datos_usuario.txt
+git add
+ls
+cat datos_usuario.txt 
+git add .
+git status
+git commit -m "ADD:agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+head/proc/cpinfo | grep "model name" >> datos_usuario.txt 
+git status
+cat datos_usuario.txt 
+head/proc/cpinfo | grep "model name" >> datos_usuario.txt 
+head/proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+head /proc/cpuinfo | grep "model name" >> datos_usuario.txt 
+git status
+git commit -m "añadiendo informacion de CPU"
+git add .
+git commit -m "añadiendo informacion de CPU"
+cat datos_usuario.txt 
+grep 
+man grep
+grep  -v nologin /etc/passwd > lista_ordenada
+sort lista_ordenada -t":" -k7
+cat lista_ordenada 
+grep  -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada
+git status
+git add .
+git commit -m "ADD: lista de usuarios ordenada"
+ls
+apropos "dump traffic"
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffic" >> comando_dump_net
+git add .
+git commit -m "ADD: comando para capturara y analizar el trafico de red"
+git status
+ls
+cat << FIN >> README.md 
+Alumno: <Franco Rama>
+Division:<113>
+Turno: >
+Turno: <Mañana>
+FIN
+
+cat README.md 
+git add .
+git commit -m "ADD: datos del alumno"
+git status
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
